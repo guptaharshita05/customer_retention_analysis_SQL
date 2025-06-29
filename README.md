@@ -26,19 +26,23 @@ Queries were written to generate the following insights:
 SQL scripts are organized under `/sql_queries/`.
 
 ## Dashboard (Excel-Based)
-The Excel dashboard summarizes customer transaction data using pivot tables and basic visualizations for high-level understanding. It includes:
-1.Customer-wise Total Orders, Spend, and AOV
-2.Bar and Line Charts visualizing order volume and spend trends
-3.Basic Churn vs Active Distribution (Illustrative Diagram)
-4.Customer Segmentation Count Table (Active vs Churned)
 
-Dashboard file: `/dashboard/Customer_Retention_Dashboard_Harshita.xlsx`
+The Excel dashboard summarizes customer transaction data using PivotTables and basic visualizations for high-level understanding. It includes:
+
+- **Customer-wise Total Orders, Spend, and AOV**
+- **Bar and Line Charts** visualizing order volume and spend trends
+- **Churn vs Active Distribution** (basic illustrative pie chart)
+- **Customer Segmentation Table** (count of churned vs active customers)
+
+📂 Dashboard file: `/dashboard/Customer_Retention_PivotDashboard.xlsx`
+
 
 ## Core Insights
--Around 10% of customers are churned (no recent activity)
--Customers with higher order counts tend to spend more overall
--Top spending customers show moderate retention, but pattern clarity is limited without time-series filters
--The current dashboard highlights raw aggregation but lacks dynamic filtering and deeper cohort analysisr
+
+- Approximately **10% of customers are churned** (no orders in the last 90 days)
+- Customers with **higher order counts tend to spend more overall**
+- Top spenders show **moderate retention**, but deeper behavioral patterns are unclear due to limited time-series filtering
+- The current dashboard reflects **raw aggregations** without dynamic filters or cohort-level analysis
 
 ## Applications
 This analysis can support:
