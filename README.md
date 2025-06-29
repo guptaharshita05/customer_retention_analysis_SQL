@@ -26,18 +26,19 @@ Queries were written to generate the following insights:
 SQL scripts are organized under `/sql_queries/`.
 
 ## Dashboard (Excel-Based)
-The Excel dashboard consolidates SQL outputs into a visual format for decision-making. It includes:
-- **Top 10 Customers by Order Volume**
-- **KPI Cards** (Total Orders, AOV, Churn Rate)
-- **Churn vs Active Customer Distribution** (Pie Chart)
-- **Customer Segmentation Table**
+The Excel dashboard summarizes customer transaction data using pivot tables and basic visualizations for high-level understanding. It includes:
+1.Customer-wise Total Orders, Spend, and AOV
+2.Bar and Line Charts visualizing order volume and spend trends
+3.Basic Churn vs Active Distribution (Illustrative Diagram)
+4.Customer Segmentation Count Table (Active vs Churned)
 
 Dashboard file: `/dashboard/Customer_Retention_Dashboard_Harshita.xlsx`
 
 ## Core Insights
-- ~30% of customers have churned (no activity in the last 90 days)
-- Top 10% of customers account for a large share of total revenue
-- Customers with higher AOV tend to show stronger retention behavior
+-Around 10% of customers are churned (no recent activity)
+-Customers with higher order counts tend to spend more overall
+-Top spending customers show moderate retention, but pattern clarity is limited without time-series filters
+-The current dashboard highlights raw aggregation but lacks dynamic filtering and deeper cohort analysisr
 
 ## Applications
 This analysis can support:
